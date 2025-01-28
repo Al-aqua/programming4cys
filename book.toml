@@ -7,3 +7,5 @@ title = "Programming for Cybersecurity"
 
 [output.html]
 additional-css = ["theme/watermark.css"]
+
+# [output.pdf]
