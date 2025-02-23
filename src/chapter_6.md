@@ -1,4 +1,4 @@
-# Chapter 9: **Python for Reconnaissance and Initial Access**
+# Chapter 8: **Python for Reconnaissance and Initial Access**
 
 ## **Objective:**
 
@@ -12,8 +12,12 @@ This lab is designed to introduce students to the use of Python for reconnaissan
 ## **Lab Setup:**
 
 - **Python 3.x** installed on the system.
+- **socket** comes with Python
+  - A built-in Python library that provides a low-level networking interface. In this chapter, it's used specifically for reverse DNS lookups to convert IP addresses to hostnames, complementing the DNS reconnaissance capabilities.
 - **Scapy** library installed (`pip install scapy`).
+  - A powerful Python library for packet manipulation and network scanning. It allows for low-level network operations like crafting custom TCP/IP packets, performing port scans, and network discovery. In this chapter, it's used for SYN scanning to identify open ports on target systems.
 - **dnspython** library installed (`pip install dnspython`).
+  - A comprehensive DNS toolkit for Python that enables DNS queries, zone transfers, and dynamic updates. In this chapter, it's used for DNS record exploration, reverse DNS lookups, and subdomain enumeration to gather information about target domains and their infrastructure.
 - A text file named `subdomains.txt` containing a list of common subdomains.
 
 ## **Lab Exercises:**
