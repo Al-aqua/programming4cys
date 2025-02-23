@@ -1,4 +1,4 @@
-# Chapter 8: **Python for Reconnaissance and Initial Access**
+# Chapter 6: **Python for Reconnaissance and Initial Access**
 
 ## **Objective:**
 
